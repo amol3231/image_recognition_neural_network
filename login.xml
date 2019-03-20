@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<face>
+    
+
+<login>
+<pass>a</pass>
+<privillage>ttttt</privillage>
+<uname>a</uname>
+</login>
+
+<login>
+<pass>admin</pass>
+<privillage>ttttt</privillage>
+<uname>admin</uname>
+</login>
+<login>
+<pass>z</pass>
+<privillage>ffttt</privillage>
+<uname>z</uname>
+</login>
+<login>
+<pass>amol</pass>
+<privillage>ftttf</privillage>
+<uname>amol</uname>
+</login>
+</face>
