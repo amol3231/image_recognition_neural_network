@@ -4,9 +4,22 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/linijose/Documents/Java_WorkSpace/working%20project/FaceRec_XML_DB/src/log1.java</file>
-            <file>file:/Users/linijose/Documents/Java_WorkSpace/working%20project/FaceRec_XML_DB/src/XMLDataBase.java</file>
-            <file>file:/Users/linijose/Documents/Java_WorkSpace/working%20project/FaceRec_XML_DB/src/photoCapture1.java</file>
+            <file>file:/Users/linijose/Documents/GitHub/image_recognition_neural_network/src/BackpropagationNet.java</file>
+            <file>file:/Users/linijose/Documents/GitHub/image_recognition_neural_network/src/NeuronLayer.java</file>
+            <file>file:/Users/linijose/Documents/GitHub/image_recognition_neural_network/src/Pattern.java</file>
+            <file>file:/Users/linijose/Documents/GitHub/image_recognition_neural_network/src/log1.java</file>
+            <file>file:/Users/linijose/Documents/GitHub/image_recognition_neural_network/src/MapNeuron.java</file>
+            <file>file:/Users/linijose/Documents/GitHub/image_recognition_neural_network/src/NeuronMatrix.java</file>
+            <file>file:/Users/linijose/Documents/GitHub/image_recognition_neural_network/src/PersonalDetails.java</file>
+            <file>file:/Users/linijose/Documents/GitHub/image_recognition_neural_network/src/Neuron.java</file>
+            <file>file:/Users/linijose/Documents/GitHub/image_recognition_neural_network/src/InputValue.java</file>
+            <file>file:/Users/linijose/Documents/GitHub/image_recognition_neural_network/src/identify.java</file>
+            <file>file:/Users/linijose/Documents/GitHub/image_recognition_neural_network/src/XMLDataBase.java</file>
+            <file>file:/Users/linijose/Documents/GitHub/image_recognition_neural_network/src/NeuralNet.java</file>
+            <file>file:/Users/linijose/Documents/GitHub/image_recognition_neural_network/src/menu.java</file>
+            <file>file:/Users/linijose/Documents/GitHub/image_recognition_neural_network/src/Train.java</file>
+            <file>file:/Users/linijose/Documents/GitHub/image_recognition_neural_network/src/Retrieval.java</file>
+            <file>file:/Users/linijose/Documents/GitHub/image_recognition_neural_network/src/RecordDB.java</file>
         </group>
     </open-files>
 </project-private>

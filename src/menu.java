@@ -198,7 +198,7 @@ class menu extends JFrame implements ActionListener
 		try{
 				if (ae.getSource()==photo)
 				{
-					new photoCapture1(1).capture();
+					//new photoCapture1(1).capture();
 				}
 				
 				if(ae.getSource()==e)
