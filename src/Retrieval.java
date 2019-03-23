@@ -34,8 +34,7 @@ public class Retrieval
 			System.out.println( "OK" );
 
 			System.out.print( "Creating neuron layers ..." );
-			bpn.addNeuronLayer( 49 );	// input layer 
-	
+			bpn.addNeuronLayer( 49 );	// input layer
 			bpn.addNeuronLayer( 7 );	// output layer
 			System.out.println( "OK" );
 
