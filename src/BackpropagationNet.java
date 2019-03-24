@@ -30,7 +30,8 @@ public class BackpropagationNet extends NeuralNet
         super.learningRate = 0.25D;
         error = 1000D;
         multiplier = 0;
-        accuracy = 0.20000000000000001D;
+        //accuracy = 0.20000000000000001D;
+        accuracy = 0.10000000000000001D;
         neuronLayerVector = new Vector();
         super.stopLearning = false;
         resetTime();
@@ -66,6 +67,8 @@ public class BackpropagationNet extends NeuralNet
 
     void connectLayersToRetrieve()
     {
+        Retrieval b = new Retrieval();
+        
         weightMatrixArray = new WeightMatrix[neuronLayerVector.size() - 1];
         neuronLayerArray = new NeuronLayer[neuronLayerVector.size()];
         int i = 0;
@@ -78,7 +81,11 @@ public class BackpropagationNet extends NeuralNet
         for(int j = 0; j < weightMatrixArray.length; j++)
         {
             weightMatrixArray[j] = new WeightMatrix(neuronLayerArray[j].size(), neuronLayerArray[j + 1].size(), true);
-            weightMatrixArray[j].init1();
+            if (j==0)
+                weightMatrixArray[j].init1(b.retwht1);
+            if (j==1)
+                weightMatrixArray[j].init1(b.retwht2);
+                
         }
 
         lastLayer = neuronLayerArray.length - 1;
@@ -270,6 +277,7 @@ public class BackpropagationNet extends NeuralNet
         Pattern pattern = new Pattern(s, conversionTable);
         float af[] = new float[targetPatternArray[0].size()];
         neuronLayerArray[0].setInput(pattern);
+        //i =1
         for(int i = 1; i <= lastLayer; i++)
         {
             neuronLayerArray[i].computeInput(neuronLayerArray[i - 1], weightMatrixArray[i - 1]);

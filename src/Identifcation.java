@@ -12,7 +12,7 @@ public class Identifcation
 int rsum,gsum,bsum;
 int i=0;
 int j=0;
-public int myIdentifcation(String weight,String extract,int x,int y) throws Exception
+public int myIdentifcation(String weight1, String weight2,String extract,int x,int y) throws Exception
 {
 ////Pixel Grabbing
         Image img;
@@ -47,7 +47,7 @@ public int myIdentifcation(String weight,String extract,int x,int y) throws Exce
     {
         for (j=0;j<49;j++)
         { 
-            rgb[i][j][1]=rgb[i][j][1]-70;   
+            rgb[i][j][1]=rgb[i][j][1]-10;   
             
               if(((rgb[i][j][1]>47)&&(rgb[i][j][1]<58))||((rgb[i][j][1]>64)&&(rgb[i][j][1]<91))&&(rgb[i][j][1]>31&&bin[i][j]!=127))
               {
@@ -86,7 +86,7 @@ public int myIdentifcation(String weight,String extract,int x,int y) throws Exce
 
     fout.close();
     Retrieval r=new Retrieval();
-    r.retrieve(weight, extract);
+    r.retrieve(weight1, weight2, extract);
     return(1);
 }
        

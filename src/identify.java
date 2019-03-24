@@ -119,16 +119,16 @@ public class identify  extends JFrame implements ActionListener
 		try
 	  {
 	  	int id[]=new int[15];
-		 id[0]=new Identifcation().myIdentifcation(idn_path+"TrainningResult1.txt.nn",idn_path+"retieveID1.txt",230,190);
-		  id[1]=new Identifcation().myIdentifcation(idn_path+"TrainningResult2.txt.nn",idn_path+"retieveID2.txt",300,350);
-		  id[2]=new Identifcation().myIdentifcation(idn_path+"TrainningResult3.txt.nn",idn_path+"retieveID3.txt",230,275);
-		  id[3]=new Identifcation().myIdentifcation(idn_path+"TrainningResult4.txt.nn",idn_path+"retieveID4.txt",229,314);
-		  id[4]=new Identifcation().myIdentifcation(idn_path+"TrainningResult5.txt.nn",idn_path+"retieveID5.txt",295,190);
-		  id[5]=new Identifcation().myIdentifcation(idn_path+"TrainningResult6.txt.nn",idn_path+"retieveID6.txt",227,107);
-		  id[6]=new Identifcation().myIdentifcation(idn_path+"TrainningResult7.txt.nn",idn_path+"retieveID7.txt",362,274);
-		  id[7]=new Identifcation().myIdentifcation(idn_path+"TrainningResult8.txt.nn",idn_path+"retieveID8.txt",362,325);
-		  id[8]=new Identifcation().myIdentifcation(idn_path+"TrainningResult9.txt.nn",idn_path+"retieveID9.txt",387,303);
-		  id[9]=new Identifcation().myIdentifcation(idn_path+"TrainningResult10.txt.nn",idn_path+"retieveID10.txt",216,303);
+		 id[0]=new Identifcation().myIdentifcation(idn_path+"TrainningResult1.txt.1nn",idn_path+"TrainningResult1.txt.2nn",idn_path+"retieveID1.txt",230,190);
+		  id[1]=new Identifcation().myIdentifcation(idn_path+"TrainningResult2.txt.1nn",idn_path+"TrainningResult2.txt.2nn",idn_path+"retieveID2.txt",300,350);
+		  id[2]=new Identifcation().myIdentifcation(idn_path+"TrainningResult3.txt.1nn",idn_path+"TrainningResult1.txt.2nn",idn_path+"retieveID3.txt",230,275);
+		  id[3]=new Identifcation().myIdentifcation(idn_path+"TrainningResult4.txt.1nn",idn_path+"TrainningResult1.txt.2nn",idn_path+"retieveID4.txt",229,314);
+		  id[4]=new Identifcation().myIdentifcation(idn_path+"TrainningResult5.txt.1nn",idn_path+"TrainningResult1.txt.2nn",idn_path+"retieveID5.txt",295,190);
+		  id[5]=new Identifcation().myIdentifcation(idn_path+"TrainningResult6.txt.1nn",idn_path+"TrainningResult1.txt.2nn",idn_path+"retieveID6.txt",227,107);
+		  id[6]=new Identifcation().myIdentifcation(idn_path+"TrainningResult7.txt.1nn",idn_path+"TrainningResult1.txt.2nn",idn_path+"retieveID7.txt",362,274);
+		  id[7]=new Identifcation().myIdentifcation(idn_path+"TrainningResult8.txt.1nn",idn_path+"TrainningResult1.txt.2nn",idn_path+"retieveID8.txt",362,325);
+		  id[8]=new Identifcation().myIdentifcation(idn_path+"TrainningResult9.txt.1nn",idn_path+"TrainningResult1.txt.2nn",idn_path+"retieveID9.txt",387,303);
+		  id[9]=new Identifcation().myIdentifcation(idn_path+"TrainningResult10.txt.1nn",idn_path+"TrainningResult1.txt.2nn",idn_path+"retieveID10.txt",216,303);
           
                
 

@@ -48,7 +48,7 @@ public Train(String fname,int x,int y,int id) throws Exception
     {
         for (j=0;j<49;j++)
         { 
-            rgb[i][j][1]=rgb[i][j][1]-80;
+            rgb[i][j][1]=rgb[i][j][1]-10;
             
               if(((rgb[i][j][1]>47)&&(rgb[i][j][1]<58)) ||((rgb[i][j][1]>64)&&(rgb[i][j][1]<91))&&(rgb[i][j][1]>31&&bin[i][j]!=127))
               {

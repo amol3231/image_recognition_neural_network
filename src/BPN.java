@@ -9,7 +9,7 @@ public class BPN {
 
 	static BackpropagationNet bpn;
        
-        public static float a[][];
+        public static float a[][],b[][];
         public static float retwht1[][];
        
 
@@ -72,6 +72,7 @@ public class BPN {
 
 			System.out.print( "Creating neuron layers ..." );
 			bpn.addNeuronLayer( 49 );	//// input layer
+                        bpn.addNeuronLayer(21);
 			bpn.addNeuronLayer( 7 );	//// output layer
 			System.out.println( "OK" );
 
@@ -118,8 +119,7 @@ public class BPN {
                         }
 
                        a=bpn.getWeightValues(0);
-
-
+                       b=bpn.getWeightValues(1);
                         System.out.println("\n\nPrinting 1st weight matrix ......\n");
                         System.out.println("\nNo of rows = "+a.length);
                         System.out.println("\nNo of cols = "+a[0].length);
@@ -136,7 +136,7 @@ public class BPN {
                         try
                         {
                           String str="";
-                           FileOutputStream file4weight1 = new FileOutputStream(fname+".nn");
+                           FileOutputStream file4weight1 = new FileOutputStream(fname+".1nn");
                            for(int i=0;i<a.length;i++)
                           {
                             for(int j=0;j<a[0].length;j++)
@@ -154,11 +154,49 @@ public class BPN {
                         catch(Exception e)
                         {
                             System.out.println("Error during filling "+e);
+                        }                  
+                        
+                       
+
+                        System.out.println("\n\nPrinting 2nd weight matrix ......\n");
+                        System.out.println("\nNo of rows = "+b.length);
+                        System.out.println("\nNo of cols = "+b[0].length);
+
+                        for(int i=0;i<b.length;i++)
+                        {
+                            for(int j=0;j<b[0].length;j++)
+                            {
+                               System.out.print(b[i][j]);
+                            }
+                            System.out.println();
+                        }
+
+                        try
+                        {
+                          String str="";
+                           FileOutputStream file4weight1 = new FileOutputStream(fname+".2nn");
+                           for(int i=0;i<b.length;i++)
+                          {
+                            for(int j=0;j<b[0].length;j++)
+                            {
+                               str=str+b[i][j];
+                               str=str+" ";
+
+                            }
+                           str=str+"\n";
+                          }
+                           file4weight1.write(str.getBytes());
+                           
+                           str="";
+                        }
+                        catch(Exception e)
+                        {
+                            System.out.println("Error during filling "+e);
                         }                       
 
 			System.out.println( "\n\rFINISHED." );
                        
-
+                      
 	}
 }
 

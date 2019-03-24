@@ -40,18 +40,18 @@ public class WeightMatrix
 
     }
 
-    void init1()
+    void init1(float retwht[][])
     {
-        Retrieval b = new Retrieval();
-        for(int i = 0; i < weight.length; i++)
+        for(int i = 0; i < retwht.length; i++)
         {
             for(int j = 0; j < weight[0].length; j++)
             {
-                weight[i][j] = b.retwht1[i][j];
+                weight[i][j] = retwht[i][j];
             }
 
         }
-
+        
+        
         for(int k = 0; k < weight[0].length; k++)
         {
             bias[k] = (float)Math.random() * 2.0F - 1.0F;
