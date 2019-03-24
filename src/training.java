@@ -150,26 +150,35 @@ public class training  extends JFrame implements ActionListener
 
 
                         
-				        new Train(train_path+"TrainningResult1.txt",230,190,Integer.parseInt(id.getSelectedItem().toString()));
-                        mess.setText("1st cycle completed...");
+		       new Train(train_path+"TrainningResult1.txt",230,190,Integer.parseInt(id.getSelectedItem().toString()));
+                       mess.setText("1st cycle completed...");
                                        
-			  	       new Train(train_path+"TrainningResult2.txt",300,350,Integer.parseInt(id.getSelectedItem().toString()));
+		       new Train(train_path+"TrainningResult2.txt",300,350,Integer.parseInt(id.getSelectedItem().toString()));
                        mess.setText("2nd cycle completed...");
-			  	       new Train(train_path+"TrainningResult3.txt",230,275,Integer.parseInt(id.getSelectedItem().toString()));
+                       
+		       new Train(train_path+"TrainningResult3.txt",230,275,Integer.parseInt(id.getSelectedItem().toString()));
                        mess.setText("3rd cycle completed...");
-			  		  new Train(train_path+"TrainningResult4.txt",229,314,Integer.parseInt(id.getSelectedItem().toString()));
-			  		  mess.setText("4th cycle completed...");
+                       
+		       new Train(train_path+"TrainningResult4.txt",229,314,Integer.parseInt(id.getSelectedItem().toString()));
+		       mess.setText("4th cycle completed...");
+                       
                        new Train(train_path+"TrainningResult5.txt",295,190,Integer.parseInt(id.getSelectedItem().toString()));
-                      mess.setText("5th cycle completed...");
-                        new Train(train_path+"TrainningResult6.txt",227,107,Integer.parseInt(id.getSelectedItem().toString()));
-                      mess.setText("6th cycle completed...");
+                       mess.setText("5th cycle completed...");
+                       
+                       new Train(train_path+"TrainningResult6.txt",227,107,Integer.parseInt(id.getSelectedItem().toString()));
+                       mess.setText("6th cycle completed...");
+                       
                        new Train(train_path+"TrainningResult7.txt",362,274,Integer.parseInt(id.getSelectedItem().toString()));
-                          mess.setText("7th cycle completed...");
+                       mess.setText("7th cycle completed...");
+                       
                        new Train(train_path+"TrainningResult8.txt",362,325,Integer.parseInt(id.getSelectedItem().toString()));
-                        mess.setText("8th cycle completed...");
-                     new Train(train_path+"TrainningResult9.txt",387,303,Integer.parseInt(id.getSelectedItem().toString()));
+                       mess.setText("8th cycle completed...");
+                       
+                       new Train(train_path+"TrainningResult9.txt",387,303,Integer.parseInt(id.getSelectedItem().toString()));
                        mess.setText("9th cycle completed...");
-                         new Train(train_path+"TrainningResult10.txt",216,303,Integer.parseInt(id.getSelectedItem().toString()));
+                       
+                       new Train(train_path+"TrainningResult10.txt",216,303,Integer.parseInt(id.getSelectedItem().toString()));
+                       mess.setText("10th cycle completed...");
 
 
                                  Retrieval.count=0;

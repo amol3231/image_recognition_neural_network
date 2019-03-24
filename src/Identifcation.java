@@ -47,7 +47,7 @@ public int myIdentifcation(String weight,String extract,int x,int y) throws Exce
     {
         for (j=0;j<49;j++)
         { 
-            rgb[i][j][1]=rgb[i][j][1]-70;   
+            rgb[i][j][1]=rgb[i][j][1]-10;   
             
               if(((rgb[i][j][1]>47)&&(rgb[i][j][1]<58))||((rgb[i][j][1]>64)&&(rgb[i][j][1]<91))&&(rgb[i][j][1]>31&&bin[i][j]!=127))
               {

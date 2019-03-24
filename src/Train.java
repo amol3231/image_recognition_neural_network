@@ -48,9 +48,9 @@ public Train(String fname,int x,int y,int id) throws Exception
     {
         for (j=0;j<49;j++)
         { 
-            rgb[i][j][1]=rgb[i][j][1]-80;
+            rgb[i][j][1]=rgb[i][j][1]-10;
             
-              if(((rgb[i][j][1]>47)&&(rgb[i][j][1]<58))||((rgb[i][j][1]>64)&&(rgb[i][j][1]<91))&&(rgb[i][j][1]>31&&bin[i][j]!=127))
+              if(((rgb[i][j][1]>47)&&(rgb[i][j][1]<58)) ||((rgb[i][j][1]>64)&&(rgb[i][j][1]<91))&&(rgb[i][j][1]>31&&bin[i][j]!=127))
               {
                   bin[i][j]=(char)rgb[i][j][1];
               }
@@ -64,12 +64,7 @@ public Train(String fname,int x,int y,int id) throws Exception
         System.out.println();
     }
      
-     
-
-
-   
-
-    
+         
      binaryID=format(id);
     String str="49\n49\n7\n";
 
@@ -100,12 +95,6 @@ public Train(String fname,int x,int y,int id) throws Exception
     
 	
 }
-
-
-
-   
-
-
        
 
 	public static String format(int num)
